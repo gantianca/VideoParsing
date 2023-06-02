@@ -1,0 +1,237 @@
+video_list:
+ # 腾讯视频
+ tx:
+  name: wx_new
+  url: ['v.qq.com']
+ # 微信公众号
+ wx:
+  name: wx_new
+  url: ['weixin.qq.com']
+ # 知乎
+ zhihu:
+  name: zhihu
+  url: ['zhihu.com']
+ # 微博
+ weibo:
+  name: weibo
+  url: ['weibo', 't.cn']
+ # 西瓜视频(需要cookie)
+ xigua:
+  name: ixigua
+  url: ['ixigua.com']
+ # 今日头条
+ toutiao:
+  name: toutiao
+  url: ['toutiao.com']
+ # 好看视频
+ haokan:
+  name: haokan
+  url: ['haokan']
+ # 皮皮虾
+ pipixia:
+  name: pipix
+  url: ['pipix.com']
+ # 快手
+ kuaishou:
+  name: kuaishou
+  url: ['kuaishou', 'chenzhongtech.com']
+ # bilibili(需要cookie)
+ bilibili:
+  name: bilibili
+  url: ['bilibili', 'b23.tv']
+ # 腾讯微视
+ weishi:
+  name: weishi
+  url: ['weishi']
+ # acfun
+ acfun:
+  name: acfun
+  url: ['acfun']
+ # 凤凰网
+ ifeng:
+  name: ifeng
+  url: ['ifeng']
+ # 央视新闻
+ cctvnews:
+  name: cctvnews
+  url: ['cctvnews']
+ # 新浪网
+ sina:
+  name: sina
+  url: ['sina']
+ # 度小视（全民视频）
+ quanmin:
+  name: quanmin
+  url: ['xspshare.baidu.com', 'quanmin.baidu.com']
+ # 搜狐视频
+ sohu:
+  name: sohu
+  url: ['sohu']
+ # 抖音火山版
+ huoshan:
+  name: huoshan
+  url: ['huoshan']
+ # 最右
+ izuiyou:
+  name: izuiyou
+  url: ['xiaochuankeji']
+ # 趣头条
+ qtt:
+  name: qtt
+  url: ['qtt']
+ # 梨视频
+ pear:
+  name: pear
+  url: ['pearvideo']
+ # 央视网
+ cctv:
+  name: cctv
+  url: ['cctv']
+ # 抖音
+ douyin:
+  name: douyin
+  url: ['douyin']
+ # YouTube
+ youtube:
+  name: youtube
+  url: ['youtu']
+ # TikTok
+ tiktok:
+  name: tiktok
+  url: ['tiktok']
+ # instagram
+ instagram:
+  name: instagram
+  url: ['instagram']
+ # vimeo
+ vimeo:
+  name: vimeo
+  url: ['vimeo']
+ # 网易视频
+ v_163:
+  name: v_163
+  url: ['163.com']
+ # 56视频
+ 56_video:
+  name: souhu
+  url: ['www.56.com']
+ # 酷6网
+ ku6:
+  name: ku6
+  url: ['ku6']
+ # 开眼视频
+ eyepetizer:
+  name: eyepetizer
+  url: ['eyepetizer']
+ # 时光网
+ mtime:
+  name: mtime
+  url: ['mtime']
+ # 新华网
+ xinhua:
+  name: xinhua
+  url: ['.news.cn']
+ # 第一视频
+ v1:
+  name: v1
+  url: ['v1.cn']
+ # tom宽频站
+ tom:
+  name: tom
+  url: ['v.tom']
+ # 偶偶网
+ ouou:
+  name: ouou
+  url: ['ouou']
+ # 中国经济网
+ yun_ce:
+  name: yun_ce
+  url: ['yun.ce']
+ # 艺术中国
+ art_china:
+  name: art_china
+  url: ['art.china']
+ # 第一财经
+ yicai:
+  name: yicai
+  url: ['yicai.com']
+ # 界面新闻
+ jiemian:
+  name: jiemian
+  url: ['jiemian.com']
+ # 虎嗅
+ huxiu:
+  name: huxiu
+  url: ['huxiu.com']
+ # 天空之城
+ skypixel:
+  name: skypixel
+  url: ['skypixel.com']
+ # 百度视频
+ baidu:
+  name: baidu
+  url: ['mbd.baidu.com', 'mbdlite.baidu.com']
+ # DailyMotion
+ dailymotion:
+  name: dailymotion
+  url: ['dailymotion.com']
+ # 新片场
+ xinpianchang:
+  name: xinpianchang
+  url: ['xinpianchang.com']
+ # 中国纪录片网
+ docuchina:
+  name: docuchina
+  url: ['docuchina.cn']
+ # 360快资讯   (墨鱼丸)
+ i360kuai:
+  name: i360kuai
+  url: ['360kuai.com']
+ # 农视网
+ ntv:
+  name: ntv
+  url: ['ntv.cn']
+ # 推特
+ twitter:
+  name: twitter
+  url: ['twitter.com']
+ # facebook
+ facebook:
+  name: facebook
+  url: ['facebook.com', 'fb.watch']
+ # 小红书
+ xhs:
+  name: xhs
+  url: ['xiaohongshu.com', 'xhslink.com']
+ # 懂车帝
+ dongchedi:
+  name: dongchedi
+  url: ['dongchedi.com']
+ # 学习强国
+ xuexi:
+  name: xuexi
+  url: ['xuexi.cn']
+ # 淘宝，天猫
+ taobao:
+  name: taobao
+  url: ['taobao.com', 'tmall.com']
+ # 看看新闻
+ kankan:
+  name: kankan
+  url: ['kankanews.com']
+ # 其他平台接在百度的视频
+ m_baidu:
+  name: m_baidu
+  url: ['m.baidu.com']
+ # 漫岛
+ mandaoo:
+  name: mandaoo
+  url: ['mandaoo.com']
+ # 拼多多
+ pdd:
+  name: pdd
+  url: ['yangkeduo.com']
+ # 京东
+ jd:
+  name: jd
+  url: ['jd.com']

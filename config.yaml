@@ -1,0 +1,120 @@
+redis:
+  host: '127.0.0.1'
+  port: 6379
+  password: '000415'
+  db: 0
+  key_name: 'task_list' #保存任务的key的名称
+
+api:
+  host: '127.0.0.1'
+  port: 5000
+  analysis: '/analysis' # 解析视频的接口
+#  post_task: '/post_task' # 上传任务的接口
+#  get_data: '/get_data' # 获取任务结果的接口
+
+  list:
+    downni:
+     get: 'http://downni.baiduali.cn/app/api/gateway/' # 获取downni任务的接口
+     up: 'http://downni.baiduali.cn/app/api/gateway/' # 上传downni结果的接口
+     upload: True
+    wedown:
+     get: 'http://wedown.baiduali.cn/app/api/gateway/' # 获取wedown任务的接口
+     up: 'http://wedown.baiduali.cn/app/api/gateway/' # 上传wedown结果的接口
+     upload: True
+    xdown:
+     get: 'http://down.baiduali.cn/app/api/gateway/' # 获取xdown任务的接口
+     up: 'http://down.baiduali.cn/app/api/gateway/' # 上传xdown结果的接口
+     upload: True
+    toolbox:
+     get: 'http://vtb.baiduali.cn/app/api/gateway' # 获取视频工具箱任务的接口
+     up: 'http://vtb.baiduali.cn/app/api/gateway' # 上传视频工具箱结果的接口
+     upload: True
+#    xiniu:
+#     get: 'http://127.0.0.1:6001' # 获取犀牛任务的接口
+#     up: 'http://127.0.0.1:6002' # 上传犀牛结果的接口
+#     upload: False
+
+video_list: [
+  v.qq.com,
+  weixin.qq.com,
+  zhihu,
+  weibo,
+  t.cn,
+  ixigua.com,
+  toutiao.com,
+  haokan,
+  pipix.com,
+  kuaishou,
+  chenzhongtech.com,
+  bilibili,
+  b23.tv,
+  weishi,
+  acfun,
+  ifeng,
+  cctvnews,
+  sina,
+  xspshare.baidu.com,
+  quanmin.baidu.com,
+  sohu,
+  huoshan,
+  xiaochuankeji,
+  qtt,
+  pearvideo,
+  cctv,
+  douyin,
+  youtu,
+  tiktok,
+  instagram,
+  vimeo,
+  163.com,
+  www.56.com,
+  ku6,
+  eyepetizer,
+  mtime,
+  .news.cn,
+  v1.cn,
+  v.tom,
+  ouou,
+  yun.ce,
+  art.china,
+  yicai.com,
+  jiemian.com,
+  huxiu.com,
+  skypixel.com,
+  mbd.baidu.com,
+  mbdlite.baidu.com,
+  dailymotion.com,
+  xinpianchang.com,
+  docuchina.cn,
+  360kuai.com,
+  ntv.cn,
+  twitter.com,
+  facebook.com,
+  fb.watch,
+  xiaohongshu.com,
+  xhslink.com,
+  dongchedi.com,
+  xuexi.cn,
+  taobao.com,
+  tmall.com,
+  tb.cn,
+  kankanews.com,
+  m.baidu.com,
+  mandaoo.com,
+  yangkeduo.com,
+  jd.com
+]
+
+browser: # 嗅探浏览器相关设定
+ timeout: 8000 # 浏览器等待时间，每次解析会运行两次 单位毫秒
+
+porxy:
+ http: 'http://127.0.0.1:7890' # 代理地址
+ https: 'http://127.0.0.1:7890'
+
+threading: # 线程数量
+  get_task: 5 # 获取任务
+  browsers: 5 # 嗅探
+  old_get_data: 5 # 规则解析
+  to_info: 5 # 上报结果
+
