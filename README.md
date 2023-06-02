@@ -1,3 +1,18 @@
+<style>
+table th:first-of-type {
+    width: 8em;
+}
+table th:nth-of-type(2) {
+    width: 20em;
+}
+table th:nth-of-type(3) {
+    width: 20em;
+}
+table th:nth-of-type(4) {
+    width: 10em;
+}
+</style>
+
 # VideoParsing
 
 用于解析短视频源视频的地址
