@@ -6,15 +6,15 @@
 
 ### 国内网站
 
-| 名称       | 说明                              | 示例                                                                                        | 是否去水印 | 源代码                                                                                      |
-|----------|---------------------------------|-------------------------------------------------------------------------------------------|-------|------------------------------------------------------------------------------------------|
-| 抖音       |                                 | 6.92 TLJ:/ “三年的青春在这一刻落下了帷幕”# 2023高考  https://v.douyin.com/UQbUk8P/ 复制此链接，打开Dou音搜索，直接观看视频！ | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/douyin.py)   |
-| 快手       |                                 | https://www.kuaishou.com/f/Xa5uAnvebm1L1Hv                                                | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/kuaishou.py) |
+| 名称      | 说明                              | 示例                                                                                        | 是否去水印 | 源代码                                                                                      |
+|-----|-----|-----|-----|-----|
+| 抖音      |                                 | 6.92 TLJ:/ “三年的青春在这一刻落下了帷幕”# 2023高考  https://v.douyin.com/UQbUk8P/ 复制此链接，打开Dou音搜索，直接观看视频！ | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/douyin.py)   |
+| 快手      |                                 | https://www.kuaishou.com/f/Xa5uAnvebm1L1Hv                                                | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/kuaishou.py) |
 | bilibili | 需要cookie，目前不支持番剧和综艺等，仅支持up主上传视频 | https://www.bilibili.com/video/BV1KV4y1k7xG?spm_id_from=333.1007.tianma.1-2-2.click       | ❌     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/bilibili.py) |
-| 西瓜       |                                 | https://www.ixigua.com/7238084020184023585?logTag=c7295b06c939cc63b2e3                    | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/ixigua.py)   |
-| 小红书      |                                 | https://www.xiaohongshu.com/explore/6475357f0000000012030b52                              | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/xhs.py)      |
-| acfun    | 解析结果是m3u8链接                     | https://www.acfun.cn/v/ac41468577                                                         | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/acfun.py)    |
-| 微博       | 微博视频种类太多，解析前最好找到最原始的视频页面        | https://weibo.com/tv/show/1034:4908221480239143?from=old_pc_videoshow                     | ❌     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/weibo.py)    |
+| 西瓜      |                                 | https://www.ixigua.com/7238084020184023585?logTag=c7295b06c939cc63b2e3                    | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/ixigua.py)   |
+| 小红书     |                                 | https://www.xiaohongshu.com/explore/6475357f0000000012030b52                              | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/xhs.py)      |
+| acfun   | 解析结果是m3u8链接                     | https://www.acfun.cn/v/ac41468577                                                         | ✅     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/acfun.py)    |
+| 微博      | 微博视频种类太多，解析前最好找到最原始的视频页面        | https://weibo.com/tv/show/1034:4908221480239143?from=old_pc_videoshow                     | ❌     | [SourceCode](https://github.com/gantianca/VideoParsing/blob/main/video_list/weibo.py)    |
 
 
 ### 国外网站
